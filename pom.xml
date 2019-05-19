@@ -11,6 +11,7 @@
         <module>bungee</module>
         <module>bungee_compat</module>
         <module>bukkit</module>
+        <module>velocity</module>
         <module>common</module>
         <module>bootstrap-bungee</module>
         <module>bootstrap-bukkit</module>
@@ -35,24 +36,6 @@
         <bungeecord.version>1.13-SNAPSHOT</bungeecord.version>
     </properties>
 
-    <scm>
-        <developerConnection>scm:git:https://github.com/CodeCrafter47/BungeeTabListPlus</developerConnection>
-        <tag>HEAD</tag>
-    </scm>
-
-    <distributionManagement>
-        <repository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://nexus.codecrafter47.dyndns.eu/content/repositories/releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://nexus.codecrafter47.dyndns.eu/content/repositories/snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
-
     <repositories>
         <repository>
             <id>codecrafter47-repo</id>
@@ -65,6 +48,10 @@
         <repository>
             <id>spigot-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        </repository>
+        <repository>
+            <id>velocity</id>
+            <url>https://repo.velocitypowered.com/snapshots/</url>
         </repository>
     </repositories>
 
